@@ -27,13 +27,16 @@ namespace FriendList
                 Console.WriteLine("input friends year of birth");
                 string Year = Console.ReadLine();
 
-                int nUMBER = Convert.ToInt32(Number);
-                int mONTH = Convert.ToInt32(Month);
-                int yEAR = Convert.ToInt32(Year);
-                int dAY = Convert.ToInt32(Day);
+                int number = Convert.ToInt32(Number);
+                int month = Convert.ToInt32(Month);
+                int year = Convert.ToInt32(Year);
+                int day = Convert.ToInt32(Day);
 
                 friend[i] = new Friend();
                 friend[i].Name = Name;
+
+                Console.WriteLine("Type a user's name you would like to search.")
+                
 
             }
         }
